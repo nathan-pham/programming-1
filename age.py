@@ -6,7 +6,7 @@ def prompt(message: str) -> int:
     except ValueError: return prompt(message)
 
 # get the current age
-def get_age(birthday: datetime, today: datetime) -> int:
+def get_age(birthday: datetime, today: datetime) -> None:
 
     # get the difference between the two dates
     year = today.year - birthday.year
