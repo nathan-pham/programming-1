@@ -15,6 +15,10 @@ bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 async def on_ready():
     print(f'Logged in as {bot.user} (ID: {bot.user.id})')
     print('------')
+    
+    with open("screenshots/2022-01-06-10-06-02.png", "rb") as f:
+        await bot.user.edit(avatar=f.read())
+        print("updated avatar")
 
 @bot.command()
 async def add(ctx, left: int, right: int):

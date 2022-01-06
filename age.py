@@ -5,26 +5,26 @@ def prompt(message: str) -> int:
     try: return int(input(message))
     except ValueError: return prompt(message)
 
-def compare_age(date1: datetime, date2: datetime) -> int:
-    if date1 > date2: return 1
-    elif date1 < date2: return -1
-    return 0
-
+# get the current age
 def get_age(birthday: datetime, today: datetime) -> int:
-    compare = compare_age(birthday, today)
-    age = -1
 
-    if compare < 0:
-        age = today.year - birthday.year
+    # get the difference between the two dates
+    year = today.year - birthday.year
+    month = today.month - birthday.month
+    day = today.day - birthday.day
 
-        if (today.month < birthday.month) or (today.month == birthday.month and today.day < birthday.day):
-            age -= 1
+    # if the birthday has not yet occurred this year, subtract 1 from year
+    if month < 0:
+        year -= 1
+        month += 12
 
-    elif compare == 0: age = 0
-    else: print("[error] birthday is in the future!")
+    # if the birthday has not yet occurred this month, subtract 1 from month
+    if day < 0:
+        month -= 1
+        day += 30
     
-    return age
+    print(f"You are {year} years, {month} months, and {day} days old.")
 
-print(get_age(datetime(year=prompt("year > "), month=prompt("month > "), day=prompt("day > ")), datetime.now()))
-print(get_age(datetime(year=1953, month=9, day=23), datetime.now()))
-print(get_age(datetime(year=1987, month=1, day=6), datetime.now()))
+get_age(datetime(year=prompt("year > "), month=prompt("month > "), day=prompt("day > ")), datetime.now())
+get_age(datetime(year=1953, month=9, day=23), datetime.now())
+get_age(datetime(year=1987, month=1, day=6), datetime.now())
