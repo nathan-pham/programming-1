@@ -13,21 +13,25 @@ def game() -> bool:
 
     win_condition = list(reversed(options))[(options.index(player_choice) + 1) % len(options)]
 
-    if player_choice == computer_choice:
-        print(f"It's a tie! You both chose {player_choice}.")
-    elif computer_choice == win_condition:
-        print(f"You lose! The computer chose {computer_choice}.")
-    else:
-        print(f"You win! The computer chose {computer_choice}.")
-        return True
+    print(f"\nYou chose {player_choice} and the computer chose {computer_choice}.")
 
-    return False
+    return [
+        player_choice == computer_choice, # tie         (index: 0)
+        computer_choice == win_condition, # you lose    (index: 1)
+        True                              # you win     (index: 2)
+    ].index(True)
 
 def main() -> None:
     max_games = 5
     scorecard = []
 
-    for i in range(max_games): scorecard.append(game())
+    for i in range(max_games): 
+        result = game()
+        scorecard.append(result)
+
+        print(["A tie!", "You've lost!", "You win!"][result])
+        print(f"You've won {scorecard.count(2)} out of {i + 1} games.")
+        print(f"The computer has won {scorecard.count(1)} out of {i + 1} games.")
 
     wins = scorecard.count(1)
 
