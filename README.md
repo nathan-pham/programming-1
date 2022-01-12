@@ -8,8 +8,9 @@ Del Oro High School Programming 1 class
 * [While Loop](while_loop.py)
 * [Guessing Game](guessing_game.py)
 * [Rock Paper Scissors](rock_paper_scissors.py)
+* [For Loop](for_loop.py)
 
-# Helping Students
+## Helping Students
 * [Discord Bot](discord_bot.py)
 * [Rubber Band Experiment](rubberbands_experiment/rubberbands.py)
 
