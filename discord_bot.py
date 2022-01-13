@@ -31,4 +31,5 @@ async def add(ctx, left: int, right: int):
     """Adds two numbers together."""
     await ctx.send(left + right)
 
-bot.run('OTI4NzAwNjQ0OTgwODIyMDQ4.Ydcl4A.Zp-iWse0csNmLVEqSPrQSryY7pI')
+bot.run('')
+# thanks discord for removing my token for me!
