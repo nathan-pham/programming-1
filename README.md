@@ -9,6 +9,8 @@ Del Oro High School Programming 1 class
 * [Guessing Game](guessing_game.py)
 * [Rock Paper Scissors](rock_paper_scissors.py)
 * [For Loop](for_loop.py)
+* [Reverse For Loop](reverse_for_loop.py)
+* [Modulus](modulus.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)

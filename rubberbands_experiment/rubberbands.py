@@ -18,18 +18,9 @@ from sklearn.linear_model import LinearRegression
 lin_reg = LinearRegression()
 lin_reg.fit(X_poly, y)
 
-X_max = max(100, X.max())
-X_grid = np.arange(min(X), X_max, 0.1).reshape(-1, 1)
+test_dataset = pd.read_csv("rubberbands_experiment/test_set.csv")
+X_test = test_dataset.iloc[:, 0].values.reshape(-1, 1)
+y_test = test_dataset.iloc[:, 1].values * 100
 
-print(lin_reg.coef_)
-print(lin_reg.intercept_)
-
-# plt.scatter(X, y, color="red", s=5)
-# plt.plot(X_grid, lin_reg.predict(poly_reg.transform(X_grid)), color="blue")
-
-# plt.title("Polynomial Regression")
-# plt.xlabel("Angle (deg)")
-# plt.xticks(np.arange(0, X_max, 10))
-# plt.ylabel("Impact Height (cm)")
-
-# plt.show()
+from sklearn.metrics import r2_score
+print(r2_score(y_test, lin_reg.predict(poly_reg.fit_transform(X_test))))
