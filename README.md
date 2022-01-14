@@ -11,6 +11,7 @@ Del Oro High School Programming 1 class
 * [For Loop](for_loop.py)
 * [Reverse For Loop](reverse_for_loop.py)
 * [Modulus](modulus.py)
+* [Strings](strings.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
