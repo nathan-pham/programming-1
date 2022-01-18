@@ -1,4 +1,4 @@
-# Filename:     palindrom.py
+# Filename:     palindrome.py
 # Date:         1/14/2022
 # Purpose:      Determine if a string is a palindrome
 # Name:         Nathan Pham
