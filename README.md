@@ -13,6 +13,8 @@ Del Oro High School Programming 1 class
 * [Modulus](modulus.py)
 * [Count Frequency](count_frequency.py)
 * [Palindrome](palindrome.py)
+* [Password Checker](password_checker.py)
+* [Review: Strings and Loops](review_strings_loops.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
