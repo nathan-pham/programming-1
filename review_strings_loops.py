@@ -1,4 +1,4 @@
-# Filename:     review_string_loops.py
+# Filename:     review_strings_loops.py
 # Date:         1/18/2022
 # Purpose:      Small programs that showcase Strings and loops
 # Name:         Nathan Pham
@@ -18,23 +18,17 @@ def program_2() -> None:
 
 
 # add up every third digit
-def program_3():
+def program_3() -> None:
     number = input("Enter a number > ")
     result = sum([int(number[i]) for i in range(0, len(number), 3)])
-
     print(f"result = {result}")
 
 
 # random shit
-def program_4():
+def program_4() -> None:
     number = int(input("Enter a number > ")) * 3
-
-    if number > 10:
-        result = sum([int(i) for i in list(str(number))])
-        print(f"result = {result}")
-    else:
-        print(f"result = {number}")
-    
+    result = sum([int(i) for i in list(str(number))]) if number > 10 else number
+    print(f"result = {result}")
 
 if __name__ == "__main__":
     program_1()
