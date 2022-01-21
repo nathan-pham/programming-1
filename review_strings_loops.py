@@ -30,6 +30,7 @@ def program_4() -> None:
     result = sum([int(i) for i in list(str(number))]) if number > 10 else number
     print(f"result = {result}")
 
+
 if __name__ == "__main__":
     program_1()
     program_2()

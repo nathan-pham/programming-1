@@ -15,6 +15,7 @@ Del Oro High School Programming 1 class
 * [Palindrome](palindrome.py)
 * [Password Checker](password_checker.py)
 * [Review: Strings and Loops](review_strings_loops.py)
+* [Credit Card Checker](credit_checker.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
