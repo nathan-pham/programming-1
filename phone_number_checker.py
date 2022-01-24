@@ -25,9 +25,6 @@ def main() -> None:
             break
 
         phone_number = remove_formatting(phone_number)
-
-        print(phone_number, len(phone_number), add_formatting(phone_number))
-
         print(f"Phone number: {add_formatting(phone_number)}" if len(
             phone_number) == 10 else "Invalid phone number.")
 
