@@ -21,6 +21,7 @@ Del Oro High School Programming 1 class
 ## Helping Students
 * [Discord Bot](discord_bot.py)
 * [Rubber Band Experiment](rubberbands_experiment/rubberbands.py)
+* [Credit Card Checker: Adding Numbers](adding_numbers.py)
 
 ## Screenshots
 ![](screenshots/2022-01-06-10-06-02.png)
