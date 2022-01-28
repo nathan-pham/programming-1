@@ -19,6 +19,7 @@ Del Oro High School Programming 1 class
 * [Phone Number Checker](phone_number_checker.py)
 * [Python Modules](modules.py)
 * [Lists](lists.py)
+* [List Methods](list_methods.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
