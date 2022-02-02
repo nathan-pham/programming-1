@@ -20,6 +20,8 @@ Del Oro High School Programming 1 class
 * [Python Modules](modules.py)
 * [Lists](lists.py)
 * [List Methods](list_methods.py)
+* [Swap](swap.py)
+* [Printing Shapes](printing_shapes.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
