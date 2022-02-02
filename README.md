@@ -22,6 +22,8 @@ Del Oro High School Programming 1 class
 * [List Methods](list_methods.py)
 * [Swap](swap.py)
 * [Printing Shapes](printing_shapes.py)
+* [Heap Sort](/heap_sort.py)
+* [Average Test Score](/average_test_score.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
