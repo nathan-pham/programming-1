@@ -11,8 +11,8 @@ def random_sort(labels: List[str], scores: List[int]) -> Tuple[List[str], List[i
         return None
 
     for i in range(len(scores)):
-        for j in range(len(scores)):
-            if scores[j] < scores[i]:
+        for j in range(i, len(scores)):
+            if scores[j] > scores[i]:
                 labels[j], labels[i] = labels[i], labels[j]
                 scores[j], scores[i] = scores[i], scores[j]
 
