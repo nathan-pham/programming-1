@@ -26,6 +26,9 @@ Del Oro High School Programming 1 class
 * [Average Test Score](/average_test_score.py)
 * [Bubble Sort](/bubble_sort.py)
 * [Poem Emoji](/poem_emoji.py)
+* [Ghetto Encryption](ghetto_encryption.py)
+* [Decrypt File](decrypt_file.py)
+* [Custom Encryption (RSA)](custom_encryption.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)

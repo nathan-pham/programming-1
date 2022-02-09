@@ -21,8 +21,10 @@ def encrypt(phrase: str, shift: int) -> str:
 
 
 def decrypt(phrase: str, shift: int) -> str:
-    return ''.join([chr(ord(character) - shift) for character in phrase])
-
+    try:
+        return ''.join([chr(ord(character) - shift) for character in phrase])
+    except ValueError:
+        return "invalid shift value"
 
 if __name__ == "__main__":
     main(phrase="Hello World!", shift=3)
