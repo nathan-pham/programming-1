@@ -36,7 +36,7 @@ def print_frequency(labels: List[str], scores: List[int]) -> None:
 
 def main() -> None:
     with open("./files/i_too_poem.txt") as file:
-        frequency = count_word_frequency(file.read())
+        frequency = count_word_frequency(file.read().lower())
         print_frequency(*random_sort(*dict_to_params(frequency)))
 
 if __name__ == "__main__":
