@@ -3,12 +3,12 @@
 # Purpose:      Heap sort
 # Name:         Nathan Pham
 
-from typing import Tuple, List
+from typing import Optional, Tuple, List
 from copy import deepcopy
 
 def random_sort(labels: List[str], scores: List[int]) -> Tuple[List[str], List[int]]:
-    if len(scores) != len(scores):
-        return None
+    if len(labels) != len(scores):
+        return labels, scores
 
     for i in range(len(scores)):
         for j in range(i, len(scores)):

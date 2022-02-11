@@ -10,7 +10,7 @@ from count_frequency import count_word_frequency
 from heap_sort import random_sort
 
 
-def dict_to_params(frequency: Dict[Any, int]) -> Tuple[List[str], List[int]]:
+def dict_to_params(frequency: Dict[str, int]) -> Tuple[List[str], List[int]]:
     """
     Convert a dictionary to a list of parameters (keys & values for random_sort)
     """

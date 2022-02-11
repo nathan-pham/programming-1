@@ -11,22 +11,22 @@ def prompt(message: str) -> str:
     return input(message).lower()
 
 
-def count_char_frequency(message: str) -> Dict[Any, int]:
+def count_char_frequency(message: str) -> Dict[str, int]:
     """
     Count the number of chars in a string
     """
 
-    frequency = {}
+    frequency : Dict[str, int] = {}
     for char in message: frequency[char] = frequency.get(char, 0) + 1
     return frequency
 
 
-def count_word_frequency(message: str) -> Dict[Any, int]:
+def count_word_frequency(message: str) -> Dict[str, int]:
     """
     Count the number of words in a string
     """
     
-    frequency = {}
+    frequency : Dict[str, int] = {}
     for word in message.replace("\n", " ").split(): frequency[word] = frequency.get(word, 0) + 1
     return frequency
 
@@ -34,7 +34,7 @@ def count_word_frequency(message: str) -> Dict[Any, int]:
 def main() -> None:
     while True:
         name = prompt("Enter a name > ")
-        frequency = {}
+        frequency : Dict[str, int] = {}
 
         if name == "quit": break
         for char in name: frequency[char] = frequency.get(char, 0) + 1
