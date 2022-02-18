@@ -4,11 +4,17 @@
 # Name:         Nathan Pham
 
 
-# https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+"""
+source: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
+It is difficult to factor the product of two large prime numbers (basically a one-way function because it so hard); this is why it is slow but also why it is so secure if a large enough key is used.
+
+Even when knowing e, n, and m, it is difficult to find d. 
+"""
 
 
 from typing import Union, Tuple, List
-from math import gcd, lcm
+from math import lcm
 import random
 
 
@@ -66,6 +72,7 @@ def generate_keypair() -> Tuple[Tuple[int, int], Tuple[int, int]]:
     e = find_coprime(phi)
     if e is None: return generate_keypair()
 
+    # the modular multiplicative inverse of e (mod λ(n))
     d = 1
     while (d * e) % phi != 1:
         d += 1
@@ -100,7 +107,9 @@ def main() -> None:
     encrypted = encrypt(message, public_key)
     decrypted = decrypt(encrypted, private_key)
 
-    print(message, encrypted, decrypted)
+    print("%-10s: %s" % ("message", message))
+    print("%-10s: %s" % ("encrypted", encrypted))
+    print("%-10s: %s" % ("decrypted", decrypted))
 
 
 if __name__ == "__main__":
