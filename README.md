@@ -33,7 +33,7 @@ Del Oro High School Programming 1 class
 * [Number Closest to Average](closest_average.py)
 * [Generate emails](generate_email.py)
 * [Horizontal Graph](horizontal_graph.py)
-
+* [Vertical Graph](vertical_graph.py)
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
