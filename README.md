@@ -29,6 +29,11 @@ Del Oro High School Programming 1 class
 * [Ghetto Encryption](ghetto_encryption.py)
 * [Decrypt File](decrypt_file.py)
 * [Custom Encryption (RSA)](custom_encryption.py)
+* [Most of a Letter in a List](most_certain_letter.py)
+* [Number Closest to Average](closest_average.py)
+* [Generate emails](generate_email.py)
+* [Horizontal Graph](horizontal_graph.py)
+
 
 ## Helping Students
 * [Discord Bot](discord_bot.py)
