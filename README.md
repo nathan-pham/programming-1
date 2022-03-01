@@ -37,6 +37,7 @@ Del Oro High School Programming 1 class
 -   [Horizontal Graph](horizontal_graph.py)
 -   [Vertical Graph](vertical_graph.py)
 -   [Separate Animals](separate_animals.py)
+-   [Binary to ASCII](https://replit.com/@phamn23/Binary-greater-Text#main.py)
 
 ## Helping Students
 
