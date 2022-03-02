@@ -38,6 +38,7 @@ Del Oro High School Programming 1 class
 -   [Vertical Graph](vertical_graph.py)
 -   [Separate Animals](separate_animals.py)
 -   [Binary to ASCII](https://replit.com/@phamn23/Binary-greater-Text#main.py)
+-   [Even Parity Check](https://replit.com/@phamn23/Even-Parity-Test#main.py)
 
 ## Helping Students
 
