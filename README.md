@@ -42,6 +42,7 @@ Del Oro High School Programming 1 class
 -   [Dictionaries](https://replit.com/@phamn23/Dictonaries)
 -   [Date Time](https://replit.com/@phamn23/Python-Date#me.py)
 -   [Parsing a CSV](https://replit.com/@phamn23/CSV-Zones#main.py)
+-   [Time Difference](https://replit.com/@phamn23/Python-Date-with-CSV#main.py)
 
 ## Helping Students
 
