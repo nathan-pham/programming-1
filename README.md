@@ -46,6 +46,8 @@ Del Oro High School Programming 1 class
 -   [Students Object Oriented Programming](https://replit.com/@phamn23/Student-Class#main.py)
 -   [Text to Class](https://replit.com/@phamn23/Student-Class-with-File#main.py)
 -   [States Manager](https://replit.com/@phamn23/States-Program#main.py)
+-   [Martian Numerals](https://replit.com/@phamn23/Martian-Numerals)
+-   [Mad Libs](https://replit.com/@phamn23/Mad-Libs)
 
 ## Helping Students
 
