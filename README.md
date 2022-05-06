@@ -37,6 +37,17 @@ Del Oro High School Programming 1 class
 -   [Horizontal Graph](horizontal_graph.py)
 -   [Vertical Graph](vertical_graph.py)
 -   [Separate Animals](separate_animals.py)
+-   [Binary to ASCII](https://replit.com/@phamn23/Binary-greater-Text#main.py)
+-   [Even Parity Check](https://replit.com/@phamn23/Even-Parity-Test#main.py)
+-   [Dictionaries](https://replit.com/@phamn23/Dictonaries)
+-   [Date Time](https://replit.com/@phamn23/Python-Date#me.py)
+-   [Parsing a CSV](https://replit.com/@phamn23/CSV-Zones#main.py)
+-   [Time Difference](https://replit.com/@phamn23/Python-Date-with-CSV#main.py)
+-   [Students Object Oriented Programming](https://replit.com/@phamn23/Student-Class#main.py)
+-   [Text to Class](https://replit.com/@phamn23/Student-Class-with-File#main.py)
+-   [States Manager](https://replit.com/@phamn23/States-Program#main.py)
+-   [Martian Numerals](https://replit.com/@phamn23/Martian-Numerals)
+-   [Mad Libs](https://replit.com/@phamn23/Mad-Libs)
 
 ## Helping Students
 
