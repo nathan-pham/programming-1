@@ -10,7 +10,15 @@ def main():
 
     valid = [search_term, search_term[::-1]]
 
-    # case 1: horizontal
+    # case 1: a square
+    if "".join(mojo) == search_term:
+        for y in range(len(mojo)):
+            for x in range(len(mojo[y])):
+                print(f"{mojo[y][x]}: {x},{y}")
+
+        return 
+
+    # case 2: horizontal
     for y in range(len(mojo)):
         for x in range(len(mojo[y]) - len(search_term) + 1):
             row = mojo[y][x:x+len(search_term)]
@@ -20,8 +28,10 @@ def main():
                 # print coords of each letter
                 for i in (range(len(search_term)) if normal else range(len(search_term) - 1, -1, -1)):
                     print(f"{row[i]}: {x+i},{y}")
+                
+                return
 
-    # case 2: vertical
+    # case 3: vertical
     for x in range(len(mojo[0])):
         for y in range(len(mojo) - len(search_term) + 1):
             column = "".join([mojo[y+i][x] for i in range(len(search_term))])
@@ -31,5 +41,7 @@ def main():
                 # print coords
                 for i in (range(len(search_term)) if normal else range(len(search_term) - 1, -1, -1)):
                     print(f"{column[i]}: {x},{y+i}")
+                
+                return
 
 main()
