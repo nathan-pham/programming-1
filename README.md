@@ -48,6 +48,7 @@ Del Oro High School Programming 1 class
 -   [States Manager](https://replit.com/@phamn23/States-Program#main.py)
 -   [Martian Numerals](https://replit.com/@phamn23/Martian-Numerals)
 -   [Mad Libs](https://replit.com/@phamn23/Mad-Libs)
+-   [MOJO](mojo.py)
 
 ## Helping Students
 
